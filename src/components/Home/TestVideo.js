@@ -10,10 +10,10 @@ const TestVideo = () => {
     }
     return (
         <div className="video-bg">
-            <VideoPlayer
+            {/* <VideoPlayer
                url="https://www.youtube.com/watch?v=t_Kd_G7p6ZQ"
                onProgress={handleWatchComplete}
-            />
+            /> */}
             <Link to="/fetures">
                 Book now
             </Link>
