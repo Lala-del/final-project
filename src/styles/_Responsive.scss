@@ -1,0 +1,43 @@
+@media screen and (max-width: 780px) {
+    .logo{
+        display: flex;
+        position: absolute;
+        top: 15px;
+        left: 35px;
+    }
+    .navigation__links {
+        display: none;
+        &-item {
+            color: black;
+            text-align: center;
+            padding: 32px;
+            width: 100%;
+            transition: all 0.5ms ease-in-out;
+        }
+    }
+    .navigation__links-mobile {
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: white;
+        left: 0;
+        top: 75px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+    .mobile-icon {
+        display: block!important;
+        position: absolute;
+        font-size: 30px;
+        color: black;
+        background-color: none;
+        border: none;
+        outline: none;
+        top: 15px;
+        right: 25px;
+    }
+}
+
+.mobile-icon {
+    display: none;
+}
